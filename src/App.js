@@ -1,10 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div>
-      <Button onClick={() => alert("Hello world!")}>Click me!</Button>
+      <button onClick={() => alert("Hello world!")}>Click me!</button>
+      <br />
       <i>Hello world!</i>
     </div>
   );
